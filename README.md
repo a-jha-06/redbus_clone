@@ -1,2 +1,7 @@
 # redbus_clone
- RedBus is an Indian online bus ticketing platform providing ticket booking facility through its application. In this project we have used HTML, CSS and JavaScript to build the frontend part of REDBUS app.
+ redBus is India’s largest online bus ticketing platform that has transformed bus travel in the country by bringing ease and convenience to millions of Indians who travel using buses.
+
+# Tech Stack Used
+HTML
+CSS
+JavaScript
