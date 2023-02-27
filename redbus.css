@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/*margin-top: 63px;*/
+}
+
+/* Main Home Banner and Input Search Container r*/
+.home-banner {
+	/* "../" for back to main folder */
+	background-image: url(https://i.postimg.cc/XNw65Ymz/home-banner.png);
+	background-size: cover;
+	background-repeat: round;
+	height: 450px;
+}
+
+.input-search-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	right: 50%;
+}
+
+.inputIcon {
+	position: absolute;
+	left: 5px;
+	font-size: 25px;
+	vertical-align: middle;
+	color: #AAA;
+}
+
+.inputForm {
+	width: 225px;
+	height: 40px;
+	padding-left: 28px;
+}
+
+.inputLabel-default {
+	position: absolute;
+	left: 30px;
+	color: grey;
+	font-weight: 350;
+	font-size: 15px;
+	margin-top: 8px;
+	transition-duration: 0.3s;
+}
+	.inputLabel-focusIn {
+		position: absolute;
+		left: 30px;
+		color: #9b9b9b;
+		font-size: 10px;	
+		margin-top: 1px;
+	}
+
+/* Coupons Container */
+.holiday-coupon-container {
+	width: 540px;
+	position: absolute;
+	left: 30%;
+	right: 30%;
+	top: -4em;
+}
+	.holiday-coupon-container > .d-table-cell {
+		height: 100px;
+	}
+
+/* Cashback Container */
+.cashback-container > div {
+	transition: transform .2s;
+}
+	.cashback-container > div:hover {
+		transform: scale(1.05);
+	}
+
+/* Introducing On-Time Guarantee & Track My Bus Container
+	& IOS/Android Container & We Promise To Deliver Container */
+.on-time-guarantee,
+.track-my-bus,
+.ios-android-container .d-flex,
+.we-promise-container > div:nth-child(2) {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+	.track-my-bus .d-table-cell {
+		height: 260px;
+	}
+
+/* Convenience On-The-Go IOS/Android Container */
+.ios-android-container > div::after {
+	content: "";
+	background-image: url(https://i.postimg.cc/MK7ZzDzX/city-scape-app-download.png);
+	opacity: 0.2;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
